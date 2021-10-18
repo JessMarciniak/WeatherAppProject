@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>What's Your Weather?</title>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Marcellus&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+</style>  
+<link rel="stylesheet" href="src/style.css"/>
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+</head>
+<body>
+    <div class="container">
+        <div class="card">
+            <button class="currentLocation" id="current-location-button">Current Location </button>
+            <div class="searchBar">
+            <form id="search-bar">
+                <input type="search"
+                name="city"
+                id="city-search"
+                placeholder="Please enter city"
+                class="searchInput"/> <input type="submit" value="search"class="btn btn-info"/>
+                </form>
+                            </div>
+<div class="currentStats"><span class = currentTemp id=current-temp> 20° </span><span class=units><a href="#" id="celsius">°C</a> | <a href="#" id="fahrenheit">°F</a> </span>
+        <h2><span class =tempEmoji alt= "sun behind clouds">⛅</span>Overcast</h2>
+        <h3><div class="location" id="city">Current Location</div>
+              <div class="current-date" id="current-date">Friday October 8th</div></h3></div>
+        <div class="fiveDays">
+          <div class="row row-cols-5">
+            <div class="col">Today</div>
+            <div class="col">Sat</div>
+            <div class="col">Sun</div>
+            <div class="col">Mon</div>
+            <div class="col">Tues</div>
+            <div class="col">Wed</div>
+          </div>
+          <div class="row row-cols-5">
+            <div class="col">☀️</div>
+            <div class="col">🌧️</div>
+            <div class="col">⛅</div>
+            <div class="col">☀️</div>
+            <div class="col">☀️</div>
+            <div class="col">🌩️</div>
+          </div>
+<div class="temperatures">
+          <div class="row row-cols-5">
+            <div class="col"><strong>75°F</strong> /60°F</div>
+            <div class="col"><strong>72°F</strong> /62°F</div>
+            <div class="col"><strong>60°F</strong> /57°F</div>
+            <div class="col"><strong>70°F</strong> /58°F</div>
+            <div class="col"><strong>74°F</strong> /62°F</div>
+            <div class="col"><strong>68°F</strong> /55°F</div>
+          </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+        </div>
+    </div>
+    <script src="src/script.js"></script>
+    </body>
+</html>

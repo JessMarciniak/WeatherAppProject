@@ -11,15 +11,16 @@ h3 {
   color: #373744;
 }
 h3 {
-  border: 4px rgba(87, 85, 85, 0.555) dotted;
-  margin: 0 auto;
-  border-radius: 5px;
   width: 60%;
+}
+.futureForecast {
+  font-size: 25px;
+  margin: 0 auto;
 }
 
 .currentStats {
   text-align: center;
-  padding-bottom: 50px;
+  padding-bottom: 30px;
 }
 .tempEmoji {
   font-size: 45px;
@@ -56,6 +57,12 @@ h3 {
 }
 .container {
   padding: 15px;
+}
+
+.rightNow {
+  border: 4px rgba(87, 85, 85, 0.555) dotted;
+  margin: 0 auto;
+  border-radius: 5px;
 }
 .fiveDays {
   text-align: center;

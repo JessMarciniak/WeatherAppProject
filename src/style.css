@@ -83,7 +83,7 @@ h3 {
 }
 .gitHubLink {
   color: blue;
-  border: 2px blueviolet dotted;
+  border: 2px rgb(153, 67, 233) dotted;
   border-radius: 10px;
   margin: 0 auto;
   display: block;

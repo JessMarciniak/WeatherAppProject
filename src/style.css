@@ -1,0 +1,83 @@
+h1 {
+  font-family: poppins;
+  color: #373744;
+  text-align: center;
+  font-size: 75px;
+}
+h2,
+h3 {
+  font-family: marcellus;
+  text-align: center;
+  color: #373744;
+}
+h3 {
+  border: 4px rgba(87, 85, 85, 0.555) dotted;
+  margin: 0 auto;
+  border-radius: 5px;
+  width: 60%;
+}
+
+.currentStats {
+  text-align: center;
+  padding-bottom: 50px;
+}
+.tempEmoji {
+  font-size: 45px;
+}
+.currentTemp {
+  font-size: 60px;
+}
+.units {
+  font-size: 15px;
+  font-weight: thin;
+  margin-top: 0;
+}
+
+.searchBar {
+  display: block;
+  margin: 0 auto;
+  padding-bottom: 0px;
+  padding-top: 34px;
+}
+
+.card {
+  background: radial-gradient(
+    circle at 7.5% 24%,
+    rgb(237, 161, 193) 0%,
+    rgb(250, 178, 172) 25.5%,
+    rgb(190, 228, 210) 62.3%,
+    rgb(215, 248, 247) 93.8%
+  );
+  padding: 50px 0;
+  border-radius: 25px;
+  width: 500px;
+  height: 600px;
+  margin: 0 auto;
+}
+.container {
+  padding: 15px;
+}
+.fiveDays {
+  text-align: center;
+  color: #373744;
+}
+.temperatures {
+  font-family: poppins;
+}
+.btn {
+  box-shadow: 5 5 5 dimgray;
+}
+.currentLocation {
+  border-radius: 10px;
+  background: rgb(130 33 190 / 97%);
+  color: wheat;
+  border: none;
+  padding: 0px;
+  width: 100px;
+  margin: 0 auto;
+}
+
+.units {
+  color: #406d9d;
+  font-size: 20px;
+}

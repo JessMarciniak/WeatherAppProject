@@ -81,3 +81,12 @@ h3 {
   color: #406d9d;
   font-size: 20px;
 }
+.gitHubLink {
+  color: blue;
+  border: 2px blueviolet dotted;
+  border-radius: 10px;
+  margin: 0 auto;
+  display: block;
+  text-align: center;
+  width: 100px;
+}
